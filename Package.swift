@@ -8,6 +8,7 @@ let package = Package(
         .library(name: "SpreadsheetView", targets: ["SpreadsheetView"]),
     ],
     targets: [
-        .target(name: "SpreadsheetView", dependencies: [])
+        .target(name: "SpreadsheetView",
+                path: "Framework/Sources")
     ]
 )
